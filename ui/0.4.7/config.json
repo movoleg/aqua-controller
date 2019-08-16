@@ -1,0 +1,9 @@
+{
+	"enableAccessPoint": true,
+	"wifiSsid":"AquaLight",
+	"wifiPassword":"12345678",
+	"wifiGateway":16885952,
+	"wifiSubnet":16777215,
+	"wifiIp":1526835392,
+	"clusterGroup":"AquaTest"
+}
