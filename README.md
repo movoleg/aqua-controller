@@ -3,6 +3,11 @@
 
 Please see the reference between ESP and UI versions below.
 
+**ESP32 _Light_ v0.1.6 & UI v0.4.8**
+- Added Spectrum wave axis to main chart
+- Implemented editable pins for channels and other things like fan and preset external button
+- Added visualization power of lights
+
 
 **ESP32 _Light_ v0.1.5 & UI v0.4.7**
 - Added Spectrum chart to Scheduler chart
