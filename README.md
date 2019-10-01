@@ -58,5 +58,15 @@ Please see the reference between ESP and UI versions below.
 
 
 
-## Instructions: How to load a fireware to ESP32 controller.
-TODO
+## Instructions: How to load a firmware to ESP32 controller.
+1. Checkout source code (download)
+2. Go to _/utils_ folder: `cd utils`
+3. Connect ESP32 to USB port
+4. Execute: `./flashme.sh /dev/cu.SLAB_USBtoUART` 
+
+5. Connect your device (computer/smartphone) to WiFi: `MTS-50_2G` / `050050050`
+6. Open _http://192.168.4.1_ in a browser
+7. Go to Global Settings -> WiFi and change your WiFi name and password and save changes
+8. Connect your device to your WiFi
+9. Open _http://192.168.1.91_ in a browser
+10. **Done!**
