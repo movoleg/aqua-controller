@@ -1,7 +1,7 @@
 # aqua-controller
 ##Aqua Controller Repository
 
-![alt text](media/2019-08-27 16.18.35.png)
+![alt text](https://github.com/movoleg/aqua-controller/blob/master/media/2019-08-27%2016.18.35.png)
 
 Please see the reference between ESP and UI versions below.
 
@@ -76,23 +76,23 @@ Please see the reference between ESP and UI versions below.
 ## Screenshots
 
 Dashboard page with all attached controllers (not only light controllers but PH, Dispenser, Wave Pump and other)
-![alt text](media/2019-08-27 16.18.31.png)
+![alt text](https://github.com/movoleg/aqua-controller/blob/master/media/2019-08-27%16.18.31.png)
 
 Main page of light controller where you can configure a light schedule 
-![alt text](media/2019-08-27 16.18.29.png)
+![alt text](https://github.com/movoleg/aqua-controller/blob/master/media/2019-08-27%16.18.29.png)
 
 Add/Edit point on the scheduler/chart
-![alt text](media/2019-08-27 16.18.32.png)
+![alt text](https://github.com/movoleg/aqua-controller/blob/master/media/2019-08-27%16.18.32.png)
 
 Presets page where you can apply any preset in any time
-![alt text](media/2019-08-27 16.18.30.png)
+![alt text](https://github.com/movoleg/aqua-controller/blob/master/media/2019-08-27%16.18.30.png)
 
 Settings page with flexible configurations
-![alt text](media/2019-08-27 16.18.34.png)
+![alt text](https://github.com/movoleg/aqua-controller/blob/master/media/2019-08-27%16.18.34.png)
 
 Settings channel page for setup PINs, Color, Name, Power, Spectrum and Order for each channel
-![alt text](media/2019-08-27 16.18.37.png)
+![alt text](https://github.com/movoleg/aqua-controller/blob/master/media/2019-08-27%16.18.37.png)
 activate or deactivate any channel. Select type of channel: Dimmable or Switch mode (for T5)
-![alt text](media/2019-08-27 16.18.33.png)
+![alt text](https://github.com/movoleg/aqua-controller/blob/master/media/2019-08-27%16.18.33.png)
 
-![alt text](media/2019-08-27 16.18.36.png)
+![alt text](https://github.com/movoleg/aqua-controller/blob/master/media/2019-08-27%16.18.36.png)
