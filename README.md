@@ -5,6 +5,12 @@
 
 Please see the reference between ESP and UI versions below.
 
+**ESP32 _Light_ v0.1.8 & UI v0.4.10**
+- Fixed issue with disconnecting of WiFi
+- Added Timezone&Daylight
+- Added WiFi signal strength level
+
+
 **ESP32 _Light_ v0.1.7 & UI v0.4.9**
 - Fixed adaptation feature
 
