@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+    <title>Light Controller: Upload Files</title>
+</head>
+
+<body>
+<form method="post" enctype="multipart/form-data">
+    <input type="file" name="file"/>
+    <input type="submit" value="Upload File" name="submit"/>
+</form>
+
+<script>
+    const url = 'http://192.168.1.91/fs/file';
+    const form = document.querySelector('form');
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+
+        const file = document.querySelector('[type=file]').files[0];
+        const formData = new FormData();
+        formData.append('file', file);
+
+        fetch(url, {
+            method: 'POST',
+            body: formData,
+        }).then(response => {
+            console.log(response)
+        });
+    });
+
+</script>
+</body>
+</html>
