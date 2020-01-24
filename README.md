@@ -5,6 +5,9 @@
 
 Please see the reference between ESP and UI versions below.
 
+**ESP32 _Light_ v0.2.0 & UI v0.5.0**
+- Fixed rendering issue in iPad/iPhone
+
 **ESP32 _Light_ v0.1.9 & UI v0.4.11**
 - Added managing of Clock pins
 - Added managing of Temp Sensor pin
