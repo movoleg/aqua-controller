@@ -5,9 +5,10 @@
 
 Please see the reference between ESP and UI versions below.
 
-**ESP32 _Light_ v0.2.1 & UI v0.5.0** 
+**ESP32 _Light_ v0.2.1 & UI v0.5.1**
 - Added form validations to Point and Preset forms
 - Added delete confirmation dialog
+- Fixed issues with UDP IP Address 
 
 **ESP32 _Light_ v0.2.0 & UI v0.5.0**
 - Fixed rendering issue in iPad/iPhone
