@@ -5,6 +5,12 @@
 
 Please see the reference between ESP and UI versions below.
 
+**ESP32 _Light_ v0.2.2 & UI v0.5.2**
+- Implementing Schedules feature - implemented apply, import, export, delete functions
+- Implementing Schedules feature - implemented save current schedule to schedules libs
+- Added Profile info to Global Configs
+- Added auto synch clock feature (not implemented synchronization)
+
 **ESP32 _Light_ v0.2.1 & UI v0.5.1**
 - Added form validations to Point and Preset forms
 - Added delete confirmation dialog
