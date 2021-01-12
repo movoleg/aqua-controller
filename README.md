@@ -5,6 +5,14 @@
 
 Please see the reference between ESP and UI versions below.
 
+**ESP32 _Light_ v0.2.3 & UI v0.5.4** 
+- Implemented static ssid and password for WiFi in access point mode
+- Implemented working the External Preset button in cluster mode
+- Fixed issue with Apply Preset with bounded time
+
+**ESP32 _Light_ v0.2.2 & UI v0.5.3** 
+- fixed issue with adding a point in FireFox/Safari or iPhone/iPad (added point had null time value)
+
 **ESP32 _Light_ v0.2.2 & UI v0.5.2**
 - Implementing Schedules feature - implemented apply, import, export, delete functions
 - Implementing Schedules feature - implemented save current schedule to schedules libs
