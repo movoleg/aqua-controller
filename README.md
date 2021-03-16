@@ -5,6 +5,9 @@
 
 Please see the reference between ESP and UI versions below.
 
+**ESP32 _Light_ v0.2.4 & UI v0.5.4**
+- Fixed issue with temperature sensor
+
 **ESP32 _Light_ v0.2.3 & UI v0.5.4** 
 - Implemented static ssid and password for WiFi in access point mode
 - Implemented working the External Preset button in cluster mode
@@ -110,6 +113,49 @@ Please see the reference between ESP and UI versions below.
 8. Connect your device to your WiFi
 9. Open _http://192.168.1.91_ in a browser
 10. **Done!**
+
+## Instructions: How to configure the controller.
+**Please follow by this instruction:**
+
+**_AFTER 0.2.3 ver._**
+1. Use charger from Android with microUSB. (Skip this step if you have already installed the controller to the Lights)
+2. Connect the card to microUSB. (Skip this step if you have already installed the controller to the Lights)
+3. Find WiFi access point in your device (laptop) with name: Light_XXXXXXXXX
+4. Connect to the WiFi with password: 12345678 (sometimes the device (PC/Mac/iPhone/Android) switches back to previous WiFi with internet access)
+5. Open Chrome browser and go to url: http://192.168.4.1
+6. Go to GlobalSettings -> WiFi
+7. Change SSID and password (also check Local IP, Gateway, Mask) from your WiFi router (connect to your local network to see this info) and press Save.
+8. Restart the controller (turn it off, wait 5-10 seconds, turn it on)
+9. Connect the device (PC/Mac/iPhone/Android) to your WiFi access point (router)
+10. Open browser and enter url which you entered in Local IP. Usually it looks like: http://192.168.1.91
+11. You should see Dashboard page. If your Local IP is not 192.168.1.91 then press by SCAN NODES button, SAVE button (sometimes need to press twise). You should see time, channes values, green plug icon and your local IP in the box.
+12. Done. Open LED -> Channels page and you should see the scheduled chart. Open LED -> Presets page and you should see presets.
+
+-----(Skip these steps if you have already installed the controller to the Lights)------
+13. Open/Unscrew the front side of Lights
+14. Remove old the card and install new one.
+15. Assemble the Light.
+16. It is ready to work.
+
+**_BEFORE 0.2.2 ver._** 
+1. Use charger from Android with microUSB. (Skip this step if you have already installed the controller to the Lights)
+2. Connect the card to microUSB. (Skip this step if you have already installed the controller to the Lights)
+3. Find WiFi access point in your device (laptop) with name: MTS-50_2G_AP
+4. Connect to the WiFi with password: 050050050 (sometimes the device re-connect to previous wifi with internet access)
+5. Open Chrome browser and go to url: http://192.168.4.1
+6. Go to GlobalSettings -> WiFi
+7. Change SSID and password (also check Local IP, Gateway, Mask) from your WiFi router (connect to your local network to see this info) and press Save.
+8. Restart the controller (turn it off, wait 5-10 seconds, turn it on)
+9. Connect the device to your WiFi access point (router)
+10. Open browser and enter url which you entered in Local IP. Usually it looks like: http://192.168.1.91
+11. You should see Dashboard page. If your Local IP is not 192.168.1.91 then press by SCAN NODES button, SAVE button (sometimes need to press twise). You should see time, channes values, green plug icon and your local IP in the box.
+12. Done. Open LED -> Channels page and you should see the scheduled chart. Open LED -> Presets page and you should see presets.
+
+-----(Skip these steps if you have already installed the controller to the Lights)------
+13. Open/Unscrew the front side of Lights
+14. Remove old the card and install new one.
+15. Assemble the Light.
+16. It is ready to work.
 
 ## Screenshots
 
