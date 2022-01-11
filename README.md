@@ -5,6 +5,10 @@
 
 Please see the reference between ESP and UI versions below.
 
+**ESP32 _Light_ v0.2.5 & UI v0.5.5** 
+- Fixed issue with acclimation dates
+- Added common brightness feature
+
 **ESP32 _Light_ v0.2.4 & UI v0.5.4**
 - Fixed issue with temperature sensor
 
