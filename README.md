@@ -106,17 +106,31 @@ Please see the reference between ESP and UI versions below.
 
 
 ## Instructions: How to load a firmware to ESP32 controller.
+**MacOS**
 1. Checkout source code (download)
 2. Go to _/utils_ folder: `cd utils`
 3. Connect ESP32 to USB port
 4. Execute: `./flashme.sh /dev/cu.SLAB_USBtoUART` 
 
-5. Connect your device (computer/smartphone) to WiFi: `MTS-50_2G` / `050050050`
-6. Open _http://192.168.4.1_ in a browser
-7. Go to Global Settings -> WiFi and change your WiFi name and password and save changes
-8. Connect your device to your WiFi
-9. Open _http://192.168.1.91_ in a browser
-10. **Done!**
+**Windows**
+1. Download CP2104 driver: https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip
+2. Extract it and install 64 bit version.
+3. Go to Windows -> Settings -> Devices and find `CP2104 ... (COM3)` device. `COM4` or `COM12` and etc.
+4. Download firmware: https://github.com/movoleg/aqua-controller/archive/refs/heads/master.zip
+5. Extract it to `Downloads` folder as it.
+6. Open console: type `cmd` in windows search. You will see black terminal window.
+7. Type: `cd Downloads\aqua-controller-master\aqua-controller-master\utils` and press `Enter`
+8. Type: `flashme.bat COM3` (or other number) and press `Enter`.
+9. You will see some information, percents and in the end `Done`. 
+
+**Connection the controller to your wifi**
+1.Connect your device (computer/smartphone) to WiFi: `MTS-50_2G` / `12345678`
+2. Open _http://192.168.4.1_ in a browser
+3. Go to Global Settings -> WiFi and change your WiFi name and password
+4. Change LocalIP and GatewayIP if needed. It depends of your router IP access.
+5. Connect your device to your WiFi
+6. Open _http://192.168.1.91_ in a browser
+7. **Done!**
 
 ## Instructions: How to configure the controller.
 **Please follow by this instruction:**
